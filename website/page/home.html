@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="../css/home.css">
+    <script src="../js/home.js"></script>
     <title>Home</title>
 </head>
 
@@ -20,14 +21,15 @@
             <div class="nav-links">
                 <div class="nav-item">
                     <a href="#">我的作品</a>
+                    <div class="linkBorder"></div>
                 </div>
-                <div class="nav-item">
+                <div class="nav-item" id="aboutMe" style="border:0px solid red;">
                     <div class="dropdown-wrapper">
                         <a class="dropdown-title">
                             <span class="title">关于我</span> 
                             <span class="arrow right"></span>
                         </a> 
-                        <ul class="nav-dropdown" style="display:inline;">
+                        <ul class="nav-dropdown" style="display:none;" id="ulDropdown">
                             <li class="dropdown-item">
                                 <a href="#" target="_blank" class="nav-link">GitHub地址
                                 </a>
@@ -50,7 +52,39 @@
 
     <!--main-->
     <div class="main">
-
+        <div class="cenent" id="person">
+                <div class="row justify-content-end">
+                    <div class="cell hero-img-container">
+                        <a href="#">
+                        <div class="person-img">
+                            <img src="../img/hero-img.png">
+                        </div>
+                        </a>
+                    </div>	  		
+        
+                    <div class="cell2">
+                        <div class="person-title">
+                            <a href="./single.html">
+                            <h1>To theory equation, more have the or to was the</h1>
+                            </a>
+                        </div>
+                    </div>
+        
+                    <div class="cell3">
+                        <div class="person-meta">
+                            <p>Herself of that similar live good up which is are to for French endeavours, screen.</p>
+                            <div class="author">
+                                <div class="author-img"><img src="../img/author-img.png"></div>
+                                <div class="author-meta">
+                                <span class="author-name">Celeste Connell</span>
+                                <span class="author-tag">Travel Blogger</span>
+                                </div>	
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <div class="footer">
 
