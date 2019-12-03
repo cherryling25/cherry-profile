@@ -196,6 +196,36 @@ a:hover {
 	color: #818181;
 }
 
+/* skills */
+.skills{
+	border-top: 1px solid #eaecef;
+    padding: 2rem 0;
+	margin: 19rem 2rem 0 2rem;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	align-content: stretch;
+	justify-content: space-between;
+}
+
+.skill{
+	flex-grow: 1;
+    flex-basis: 30%;
+	max-width: 30%;
+	margin: 2rem 0rem;
+}
+.skill h2{
+	font-size: 1.4rem;
+	font-weight: 500;
+	border-bottom: none;
+	padding-bottom: 0;
+	color: #3a5169;
+	line-height: 1.25;
+}
+.skill p{
+	color: #4e6e8e;
+	line-height: 1.7;
+}
 
 /* Media Queries */
 
@@ -235,6 +265,9 @@ a:hover {
 		#hero {
 		text-align: center !important;
 	}
+	.skills{
+		margin-top: 12rem;
+	}
 }
 
 @media(max-width: 585px){
@@ -243,9 +276,19 @@ a:hover {
 		height: 350px;
 	}
 	.hero-title h1 {
-	font-size: 40px;
-	line-height: 50px;
+		font-size: 40px;
+		line-height: 50px;
 	}
+	.skills{
+		text-align: left;
+		margin-top: 10rem;
+	}
+	.skill{
+		flex-basis: 100%;
+		max-width: 100%;
+		margin: 1.5rem 0 0 2rem;
+	}
+	
 }
 
 @media(max-width: 320px){
