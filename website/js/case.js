@@ -43,16 +43,35 @@ window.onload = function () {
         }(projectHover[i]);
     } */
 
-    $(".project_item_hover").hide();
-
-    $(".img_hover").mouseover(function(event) {
+    /* $(".project_item_hover span").hide();
+        $(".project_item_hover em").hide();
+    
+    $(".lis").mouseover(function(event) {
+        $(this).find(".project_item_hover").css({ left: '0', top: '0', height: '100%', width: '100%',overflow: 'hidden' });
         $(".project_item_hover").show();
+        $(".project_item_hover span").css({transform: 'none'});
+        $(".project_item_hover em").show();
     });
-    $(".img_hover").mouseout(function(event) {
+    $(".lis").mouseout(function(event) {
         $(".project_item_hover").hide();
+        $(".project_item_hover span").hide();
+        $(".project_item_hover em").hide();
+    });  */
+
+    /* $(".project_item_hover span").hide();
+    $(".project_item_hover em").hide();
+    
+    $(".lis").mouseover(function(event) {
+        $(this).find(".project_item_hover").css({ left: '0', top: '0', height: '100%', width: '100%' });
+        $(".project_item_hover").show();
+        $(".project_item_hover span").show();
+        $(".project_item_hover em").show();
     });
+    $(".lis").mouseout(function(event) {
+        $(".project_item_hover").hide();
+        $(".project_item_hover span").hide();
+        $(".project_item_hover em").hide();
+    });  */
   
         var w = document.documentElement.clientWidth;
-   
-   
 }
