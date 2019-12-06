@@ -101,13 +101,100 @@ a{
     color: rgb(125, 214, 97);
 }
 
+/* Filter */
+.container{
+    color: #888089;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    width: 1170px;
+    padding: 90px 15px 0 15px;
+    margin: -10px auto;
+}
+.heading {
+    padding-bottom: 50px;
+    text-align: center;
+}
+.heading h2 {
+    color: #372d38;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    font-size: 19px;
+    line-height: 40px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    display: inline-block;
+    position: relative;
+}
+.heading h2:after {
+    content: "";
+    display: block;
+    width: 76px;
+    height: 2px;
+    background: #5b4c5c;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -38px;
+}
+.heading h3 {
+    font-size: 18px;
+    line-height: 30px;
+    color: #5b4c5c;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-family: 'Crimson Text', serif;
+    font-style: italic;
+}
+.projectFilter{
+    text-align: center;
+    color: #888089;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+}
+.projectFilter ul li {
+    display: inline-block;
+    margin: 0 -1px;
+    position: relative;
+}
+.projectFilter ul li a {
+    padding: 10px 30px;
+    font-size: 11px;
+    line-height: 15px;
+    font-weight: bold;
+    color: #6f6470;
+    text-transform: uppercase;
+    display: block;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+.projectFilter ul li a.current {
+    border: solid 1px #fff;
+    color: #000;
+}
+.projectFilter ul li:after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 10px;
+    background: #938b94;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -5px;
+}
+.projectFilter ul li.last:after {
+    background: #fff;
+}
+
 
 /* PROJECT */
 .grid{
     width: 80%;
     display: flex;
     padding: 1rem 0;
-	margin: 7rem auto;
+	margin: 1rem auto;
 	flex-wrap: wrap;
 	align-items: flex-start;
 	align-content: stretch;
