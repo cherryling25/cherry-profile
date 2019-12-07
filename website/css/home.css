@@ -20,6 +20,8 @@ a{
     border-bottom: 1px solid #eaecef;
     position: fixed;
     top: 0;
+    z-index: 1;
+    background-color: #FCFAFA;
 }
 .header .navbar{
     box-sizing: border-box;
