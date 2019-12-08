@@ -170,9 +170,9 @@ a{
     letter-spacing: 2px;
 }
 .projectFilter ul li a.current {
-    border: solid 1px #fff;
     color: #000;
 }
+
 .projectFilter ul li:after {
     content: "";
     display: block;
@@ -200,17 +200,30 @@ a{
 	align-content: stretch;
 	justify-content: space-between;
 }
-
+.view {
+    display: block !important;
+    opacity: 1 !important;
+    transform: scale(1) rotate(0deg);
+    border-radius: 4px;
+    animation: selected 300ms 1 ease-in-out;
+}
+@keyframes selected {
+    0% {
+        border-radius: 100%;
+        transform: scale(0) rotate(-180deg);
+    }
+}
 .grid li{
 	flex-grow: 1;
     flex-basis: 33%;
 	max-width: 30%;
     margin: 2rem 0rem;
     position: relative;
+    display: none;
 }
 .grid img{
     width: 100%;
-    height: 100%;
+    height:350px;
 }
 .project_item{
     position: absolute;
