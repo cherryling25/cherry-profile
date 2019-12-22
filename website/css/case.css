@@ -45,6 +45,7 @@ a{
     position: absolute;
     right: 30px;
     top: 25px;
+    
 }
 .linkBorder{
     border:1px solid rgb(125, 214, 97);
@@ -86,11 +87,6 @@ a{
 .dropdown a:hover {
     text-decoration: none;
     color: rgb(125, 214, 97)!important;
-}
-@media (max-width: 768px){
-    .nav-links{
-        display:none;
-    }
 }
 .item{
     margin-bottom: 25px;
